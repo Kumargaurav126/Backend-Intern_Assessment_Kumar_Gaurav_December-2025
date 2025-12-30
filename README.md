@@ -48,33 +48,34 @@ The system prioritizes security using JWT (JSON Web Tokens) for stateless authen
 
 
 ### 2. Backend Setup
-Navigate to the backend directory and install dependencies:
+i. Navigate to the backend directory and install dependencies:
 
 `cd backend`
 
 `npm install`
 
-Create a .env file in the backend root and configure the following:
+ii. Create a .env file in the backend root and configure the following:
 **Code snippet**
 
 * PORT=5000
 * MONGO_URI=your_mongodb_connection_string
 * JWT_SECRET=your_secure_jwt_secret
 * NODE_ENV=development
-* Start the backend server:
+
+iii. Start the backend server:
 
 `npm start`
 
 The server will run on http://localhost:5000
 
 ### 3. Frontend Setup
-Open a new terminal, navigate to the frontend directory, and install dependencies:
+i. Open a new terminal, navigate to the frontend directory, and install dependencies:
 
 `cd ../frontend`
 
 `npm install`
 
-Start the React application:
+ii. Start the React application:
 
 `npm start`
 
@@ -86,4 +87,5 @@ To run the backend unit tests:
 `cd backend`
 
 `npm test`
+
 
