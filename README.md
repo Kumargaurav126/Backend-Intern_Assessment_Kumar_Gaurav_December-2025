@@ -55,6 +55,7 @@ i. Navigate to the backend directory and install dependencies:
 `npm install`
 
 ii. Create a .env file in the backend root and configure the following:
+
 **Code snippet**
 
 * PORT=5000
@@ -87,5 +88,13 @@ To run the backend unit tests:
 `cd backend`
 
 `npm test`
+
+### 5.Environment Variables
+The following environment variables are required in the backend/.env file:
+
+* PORT - The port the server listens on (Default: 5000)
+* MONGO_URI - MongoDB connection string (Atlas or Local)
+* JWT_SECRET - Secret key used to sign and verify JWT tokens
+* NODE_ENV - Environment mode (development/production/test)
 
 
